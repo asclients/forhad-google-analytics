@@ -1,0 +1,376 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 10px / 13px 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    color: #000;
+    background: unset;
+    overflow: visible;
+    word-wrap: break-word;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* 
+-----------------------------------------------
+This webpage is provided by Template School.
+Name:        Ultra Lite Portfolio
+License:     Free Version
+Version:     1.5.0
+Author:      Templates Schools, AS Clients
+Author Url:  https://github.com/asclients &
+             https://github.com/templatesschools
+Website Url: https://www.newspaperreports.com   
+Contact:     asupdatemedia518@gmail.com
+----------------------------------------------- */
+
+:root {
+    --asF-hd-font: 700 14px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-owner-font: 700 18px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-bx-rgb-color: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+    --asF-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-author-font-color: #000;
+    --asF-nprAS-hd-ads-content: 'Advertisement - scroll for more content';
+    --asF-nprAS-hd-ads-onylyContent: 'Advertiser';
+    --asF-nprAS-hd-ads-color: #787878;
+    --asF-nprAS-hd-ads-font: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-asM-ads-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-asM-ads-author-color: #626262;
+    --asF-asM-ads-author-hover-color: #b60a7c;
+    --asF-sub-link-color: #626262;
+    --asF-sub-link-hover-color: #303030;
+    --asF-section-hdLine-hover-color: #d60000;
+    --asF-font-family-global: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-item-headline-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-top-headlines-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
+    --asF-item-hero-headline-color: #303030;
+    --asF-item-headline-color: #000;
+    --asF-item-headline-hover-color: #626262;
+    --asF-item-description-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
+    --asF-item-description-color: #303030;
+    --asF-item-description-hover-color: #575050fb;
+    --asF-item-tag-font: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-item-tag-color: #AA1E23;
+    --asF-item-publish-time-color: #626262;
+    --asF-border-any-side-color: #c2c2c2;
+    --asF-third-party-athor-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --asF-third-party-athor-color: #626262;
+    --txt-whi-color: #ffffff;
+    --txt-headline-bg-white: #FFFFFF;
+    --btnBx-color: #04AA6D;
+    --asF-cg-link-color: #fff;
+    --asF-cg-link-hover-color: #00FF7F;
+    --asF-border-top-color: rgb(0, 152, 254);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    display: block;
+}
+
+/* Start Main Header Area Style */
+.asF_main_hd {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.asF_hd_ct {
+    background: #303030;
+    border-top: 5px solid rgb(0, 152, 254);
+}
+
+.asF_main_nv {
+    padding: 5px 0;
+}
+
+.jus_sp {
+    justify-content: space-between;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.width_90 {
+    width: 90%;
+}
+
+.mx_width_1200 {
+    max-width: 1200px;
+}
+
+.margin_auto {
+    margin: auto;
+}
+
+.asF_main_thumb {
+    padding-right: 10px;
+}
+
+.main_owner_verification {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    border: 1px solid #303030;
+}
+
+.asF_owner_tt {
+    font: var(--asF-owner-font);
+    color: #fff;
+}
+
+.asF_owner_tt span {
+    color: var(--asF-cg-link-hover-color);
+}
+
+.asF_owner_tt:hover span {
+    color: #fff;
+}
+
+.asF_hd_it {
+    list-style-type: none;
+}
+
+.asF_hd_it .asF_hd_itC,
+.asF_hd_it .asF_hd_itCt {
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+.list_style {
+    list-style-type: none;
+}
+
+.asF_hd_itC {
+    margin-right: 10px;
+}
+
+.asF_hd_it a {
+    font: var(--asF-hd-font);
+    padding: 3px 5px;
+    display: inline-block;
+    
+}
+
+.asF_hd_it a:hover,
+.asF_hd_it a:focus {
+    color: #000;
+    /* color: var(--asF-cg-link-hover-color); */
+    background: #fff;
+}
+
+@media (max-width: 760px) {
+    .asF_hd_area {
+        display: none;
+    }
+
+    .main_nv {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .asF_main_owner {
+        flex-flow: column;
+        text-align: center;
+    }
+}
+
+/* ASF Global Articl Area */
+.asF_gb_title {
+    font: 700 26px / 28px var(--asF-item-headline-font);
+    margin: 50px 0;
+    text-align: center;
+}
+
+/* ASF Client Projects Area */
+.asF_gg_al_title {
+    font: 700 22px / 28px var(--asF-item-headline-font);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.asF_my_client_list {
+    margin: 20px 0 100px;
+}
+
+.asF_my_client_dt {
+    font: 600 18px / 28px var(--asF-item-headline-font);
+}
+
+.asF_my_client_list li a {
+    font: 500 14px / 18px var(--asF-item-tag-font);
+    letter-spacing: 0.8px;
+}
+
+.asF_my_client_list li a:hover,
+.asF_my_client_list li a:focus {
+    color: #d60000;
+}
+
+/* Live Project Area */
+.asF_live_pj_thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.asF_mr_pj_tt {
+    text-align: center;
+    font: 500 16px / 18px var(--asF-font-family-global);
+    margin: 20px 0 50px;
+}
+
+/* Start Main Footer Section Design */
+.mainFooter_ct {
+    background-color: #303030;
+}
+
+.mainFooter_info {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.ft_content_bx {
+    width: 200px;
+}
+
+.mainFooter_info a {
+    color: var(--asF-cg-link-color);
+}
+
+.mainFooter_info img {
+    max-width: 100%;
+}
+
+.footer_logo a {
+    display: flex;
+    flex-flow: column;    
+    align-items: center;
+    font: var(--asF-owner-font);
+    text-align: center;
+}
+
+.footer_logo img {
+    width: 64px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.ft_headLine h3 {
+    display: inline-block;
+    color: var(--asF-cg-link-color);
+    font: 700 26px / 28px var(--asF-item-headline-font);
+    border-bottom: 3px solid #fff;
+    margin-bottom: 10px;
+}
+
+.ft_follow_dt,
+.ft_moreLinks_dt {
+    padding: 5px 0px;
+}
+
+
+.ft_follow_dt a,
+.ft_moreLinks_dt a {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--asF-item-tag-font);
+    letter-spacing: 0.8px;
+}
+
+.ft_follow_dt a:hover,
+.ft_moreLinks_dt a:hover {
+    color: #00FF7F;
+    margin-left: 5px;
+    transition: .3s ease-in-out;
+    border-bottom: 1px solid var(--asF-border-any-side-color);
+}
+
+.ft_contactUs_dt {
+    margin-bottom: 10px;
+}
+
+.ft_contactUs_dt h3 {
+    color: var(--asF-cg-link-color);
+    font: 700 16px / 18px var(--asF-item-headline-font);
+}
+
+.ft_contactUs_dt a {
+    font: 500 12px / 18px var(--asF-item-tag-font);
+}
+
+.ft_contactUs_dt a:hover {
+    color: #00FF7F;
+}
+
+/* Start Copy Right Area Design */
+.copyRight_ct {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.copyRight_socialLink {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.copyRight_socialLink a i {
+    color: #00FF7F;
+    font-size: 25px;
+}
+
+.copyRight_socialLink a:hover i {
+    color: #fff;
+}
+
+.copyRightAuthor_info {
+    text-align: center;
+}
+
+.copyRightAuthor_info h3 {
+    color: var(--asF-cg-link-color);
+    letter-spacing: 0.8px;
+}
+
+.copyRightAuthor_info a {
+    color: #00FF7F;
+    
+}
+/* End Copy Right Area Design */
+
+/* End Main Footer Section Design */
